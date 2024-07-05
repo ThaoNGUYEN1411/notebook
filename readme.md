@@ -26,3 +26,5 @@ java
 Copier le code
 Long wrapperLong = 10L;
 long primitiveLong = wrapperLong; // Unboxing
+
+.orElseGet(Supplier<? extends T> other): This method returns the value if present, otherwise it invokes the Supplier to compute the value. The Supplier is only called if the Optional is empty.
