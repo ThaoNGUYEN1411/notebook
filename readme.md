@@ -28,3 +28,13 @@ Long wrapperLong = 10L;
 long primitiveLong = wrapperLong; // Unboxing
 
 .orElseGet(Supplier<? extends T> other): This method returns the value if present, otherwise it invokes the Supplier to compute the value. The Supplier is only called if the Optional is empty.
+
+### Validator
+https://www.baeldung.com/spring-boot-bean-validation
+https://snyk.io/fr/blog/guide-to-input-validation-with-spring-boot/
+https://spring.io/guides/gs/validating-form-input
+https://www.baeldung.com/spring-mvc-custom-validator
+https://www.bezkoder.com/spring-boot-custom-validation/
+https://reflectoring.io/bean-validation-with-spring-boot/
+https://medium.com/@bubu.tripathy/building-dynamic-spring-boot-validators-a066e6996df6
+
